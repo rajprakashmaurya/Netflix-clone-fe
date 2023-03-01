@@ -1,0 +1,21 @@
+.section-mid {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.section-mid-left > h1 {
+  font-size: 64px;
+}
+.section-mid-left > p {
+  margin-top: 40px;
+  font-size: 30px;
+  word-spacing: 0.2rem;
+}
+.section-mid-right > iframe {
+  height: 500px;
+}

@@ -1,0 +1,53 @@
+.accord {
+  background-color: #000000;
+  color: white;
+  padding-bottom: 90px;
+}
+.accord-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 65%;
+  gap: 10px;
+}
+.accord-sub > h2 {
+  font-size: 64px;
+  margin: 90px 0 40px;
+}
+.acc-sub {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.accordion {
+  background-color: #303030;
+  color: white;
+
+  cursor: pointer;
+  padding: 27px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 32px;
+  transition: 0.4s;
+  width: 100%;
+}
+
+.active,
+.accordion:hover {
+  background-color: #303030;
+}
+
+.panel {
+  color: white;
+  padding: 30px 30px;
+  display: none;
+  background-color: #303030;
+  overflow: hidden;
+  font-size: 30px;
+}

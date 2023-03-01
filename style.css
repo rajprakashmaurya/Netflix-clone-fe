@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.body {
+  height: 100vh;
+  width: auto;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0,
+      transparent 60%,
+      rgba(0, 0, 0, 1)
+    ),
+    url(./Assarts/body-background.png);
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  margin: 0 36px;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  cursor: pointer;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.lang {
+  border: 2px solid white;
+}
+.lang,
+.sig {
+  border-radius: 5px;
+  font-size: 24px;
+  padding: 10px 20px;
+}
+.sig {
+  background-color: red;
+  outline: none;
+  border: none;
+}
+.mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  margin-top: 120px;
+}
+.mid > h1 {
+  font-size: 64px;
+}
+.mid > h4 {
+  margin: 40px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.mid > p {
+  margin: 40px;
+  font-size: 27px;
+}
+.inp {
+  display: flex;
+  align-items: center;
+}
+.input {
+  padding: 1.25rem 1.75rem;
+  width: 650px;
+  font-size: 24px;
+  outline: none;
+}
+.input1 {
+  outline: none;
+  border: none;
+  width: 200px;
+  padding: 1.1rem 1.75rem;
+  font-size: 30px;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+.hr {
+  height: 1rem;
+  background-color: #222;
+  border: none;
+}
